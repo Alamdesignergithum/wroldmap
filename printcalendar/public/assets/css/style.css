@@ -1,0 +1,169 @@
+.table tr,td,th{border:1px solid #000;background:#fff;vertical-align:top}
+         textarea{vertical-align:bottom;border:1px #fff;font-size:12px;width:100%;overflow:auto;resize:none!important}
+         #header{background:#fff;width:auto;height:6%}
+         #headerin{background:url(../img/header.png);height:5%;width:auto}#selectpicker{position:absolute!important;bottom:0;left:50%;display:block!important;width:.5px!important;height:100%!important;padding:0!important;opacity:0!important;border:none}
+         .dropbtn{background-color:#D2232A;color:#fff;margin-top:4px;padding:10px;font-size:16px;border:none;cursor:pointer;border-radius:10px}
+         .dropdown{position:relative;display:inline-block}
+         .dropdown-content{display:none;position:absolute;background-color:#D2232A;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,.2)}
+         .dropdown-content a{color:#fff;padding:12px 16px;text-decoration:none;display:block}
+         .dropdown-content a:hover{background-color:#A00C10}.dropdown:hover .dropdown-content{display:block}
+         .dropdown:hover .dropbtn{background-color:#D2232A}
+         tbody td{text-align:left!important;}.table td,.table th{padding:.2rem}
+         .bg-dark { background-color: #265a8e!important; }
+         h1{
+         font-size:30px;
+         }
+         .as{display:none;}
+         td div{font-size:11px;font-weight:bold;min-height:50px;}
+         @media screen and (max-width: 480px) {
+         #mob-hide {
+         display:none;
+         }
+         }
+         .btn-banner{
+         padding:5px 20px;
+         border-radius:10px;
+         font-weight:700;
+         line-height:1.5;
+         text-align:center;
+         color:#000066;
+         text-transform:uppercase;
+         }
+         .dropbtn {
+         background-color: #265a8e;
+         color: white;
+         padding: 16px;
+         font-size: 16px;
+         border: none;
+         }
+         .dropdown {
+         position: relative;
+         display: inline-block;
+         }
+         .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         }
+         .dropdown-content a {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         }
+         .dropdown-content a:hover {background-color: #ddd;}
+         .dropdown:hover .dropdown-content {display: block;}
+         .dropdown:hover .dropbtn {background-color: #265a8e;}
+         /* mobile view */
+         @media (max-width:500px)
+         {
+         .navbar-nav{
+         background-color:#000066;
+         border-top:3px solid #fed136;
+         color:#000066;
+         z-index:1;
+         margin-top:5px;
+         }
+         .navbar-nav .nav-item .nav-link{
+         padding: 0.7em 1em!important;
+         font-size: 100%;
+         font-weight: 500;
+         }
+         .banner-text{
+         padding:150px 0 150px 0;
+         }
+         .banner-heading{
+         font-size: 30px;
+         line-height: 30px;
+         margin-bottom: 20px;
+         }
+         .banner-sub-heading{
+         font-size: 10px;
+         font-weight: 200;
+         line-height: 10px;
+         margin-bottom: 40px;
+         }
+         }
+         @media (max-width:768px){
+         .banner-text{
+         padding:150px 0 150px 0;
+         }
+         .banner-sub-heading{
+         font-size: 23px;
+         font-weight: 200;
+         line-height: 23px;
+         margin-bottom: 40px;
+         }
+         }
+         .navbar-brand  span{
+         color: #42413f;
+         font-size:25px;font-weight:700;letter-spacing:0.1em;
+         font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+         }
+         .navbar-brand {
+         color: white;
+         font-size:25px;
+         font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+         font-weight:700;
+         letter-spacing:0.1em;
+         }
+         .navbar-nav .nav-item .nav-link{
+         padding: 1.1em 1em!important;
+         font-size: 120%;
+         font-weight: 500;
+         letter-spacing: 1px;
+         color: #ffffff;
+         font-family: 'Gothic A1', sans-serif;
+         }
+         .navbar-nav .nav-item .nav-link:hover{color:#fed136;}
+         .navbar-expand-md .navbar-nav .dropdown-menu{
+         border-top:3px solid #fed136;
+         }
+         .dropdown-item:hover{background-color:#fed136;color:#000066;}
+         nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+         -moz-transition: padding-top .3s,padding-bottom .3s;
+         transition: padding-top .3s,padding-bottom .3s;
+         border: none;
+         }
+
+        /*2 style css*/
+
+         @font-face {
+         font-weight: 400;
+         font-style:  normal;
+         font-family: 'Circular-Loom';
+         src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+         }
+         @font-face {
+         font-weight: 500;
+         font-style:  normal;
+         font-family: 'Circular-Loom';
+         src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+         }
+         @font-face {
+         font-weight: 700;
+         font-style:  normal;
+         font-family: 'Circular-Loom';
+         src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+         }
+         @font-face {
+         font-weight: 900;
+         font-style:  normal;
+         font-family: 'Circular-Loom';
+         src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+         }
+
+         /*3 style css*/
+
+         @media print {
+         button.btn {
+         display:none;
+         }
+         @page { size: landscape; }
+         td div{
+         min-height:80px;
+         }
+         }
